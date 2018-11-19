@@ -1,0 +1,22 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "My Personal Website Developed Using Node.js - Zeyuan Xue",
+  "main": "launcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./launcher.js"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "author": "Zeyuan Xue",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}

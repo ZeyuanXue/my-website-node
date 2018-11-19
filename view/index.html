@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- <link rel="icon" href="/view/imgs/favicon.ico"> -->
+    <link rel="stylesheet" href="/view/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/view/css/welcomePage.css">
+
+    <style>
+      html {height:100%; width: 100%; margin: 0;}
+      body {height:100%; width: 100%; background-color: black; margin: 0;}
+    </style>
+</head>
+<body>
+  <div id="welcomePage" class='h-100 w-100 blackBackground alignCenter'>
+      <pre class='whiteColor centerText cursor d-none' id="content">
+        <span class='welcomePageText' id="greetingContent"></span>
+        <span class='welcomePageText' id="jobTitleContetn"></span>
+        <span class='welcomePageText' id="msgContent"></span>
+      </pre>
+    </div>
+  </div>
+
+  <div id="homePage" class="blackBackground h-100 w-100 d-none" style='opacity:0'>
+    <section id="topPart" class="container-fluid h-100 w-100" style="max-width:1170px;">
+      <header id="aboutHeader" class="blackBackground w-100">
+        <span id="navBrand">
+        </span>
+        <a id="cnLangLink"><img id="cnLangIcon" class="d-none" src="/view/imgs/cn-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
+        <a id="enLangLink"><img id="enLangIcon" class="d-none" src="/view/imgs/en-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
+        <a id="jpLangLink"><img id="jpLangIcon" class="d-none" src="/view/imgs/jp-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
+        <button id="menuIcon" type="button" style="position: absolute; padding: 0; top: 15px; right: 3%; background: black; min-width: 25px; max-width: 2.8%; margin-bottom: 2px; border: none;">
+          <img src="/view/imgs/menu.png" width="100%">
+        </button>
+        <!-- <div class="dropdown">
+          <button type="button" data-toggle="dropdown" style="padding: 0; max-width: 3%; margin-left: 80%; background:black; border: none;">
+            <img src="/view/imgs/cn-language_icon.png" width="100%">
+          </button>
+          <ul class="dropdown-menu" style="margin-left: 80%; width: 3%;">
+            <li style="width: 100%"><a href="#">HTML</a></li>
+            <li style="width: 100%"><a href="#">CSS</a></li>
+            <li style="width: 100%"><a href="#">JavaScript</a></li>
+          </ul>
+        </div> -->
+      </header>
+      <div class="row h-100 ">
+        <div class="col h-100" id="about">
+<pre id="aboutContent" class="whiteColor cursor" style="position: absolute; top: 30%; left:8%; font-size: 1.1vw">
+</pre>
+        </div>
+        <div class="col alignCenter" id="photoAndContact">
+          <div>
+            <img id="linkedInIcon" src="/view/imgs/In-White-94px-TM.png" width='20%' style="position: absolute">
+            <img id="resumeIcon" src='/view/imgs/resume.png' width="15%" style="float: right;">
+            <img id="githubIcon" src="/view/imgs/GitHub-Mark-Light-120px-plus.png" width='20%' style="position:absolute; margin-left:43%">
+          </div>
+        </div>
+      </div>
+      <div id='downArrow' style="position: absolute; top: 78%; left: 50%; max-width: 3%;">
+        <img src="/view/imgs/down-arrow.png" style="width: 100%;">
+      </div>
+    </section>
+    <section id="experiencePart" class="container-fluid h-100 w-100" style="background: white"></section>
+    <section id="skillsPart" class="container-fluid h-100 w-100"></section>
+    <section id="certificationPart" class="container-fluid h-100 w-100" style="background: white"></section>
+    <section id="hobbyPart" class="container-fluid h-100 w-100"></section>
+  </div>
+
+
+  <!-- Load jquery. -->
+  <script src="/view/js/jquery-3.3.1.min.js"></script>
+
+  <!-- Load bootstrap. -->
+  <script src="/view/js/bootstrap.min.js"></script>
+
+  <script src="/view/js/getLanguage.js"></script>
+  <script src="/view/js/typing.js"></script>
+  <script src="/view/js/transition.js"></script>
+  <script src="/view/js/homePage.js"></script>
+
+</body>
+</html>

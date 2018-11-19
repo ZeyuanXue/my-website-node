@@ -1,0 +1,26 @@
+{
+  "name":"薛 泽原",
+  "welcomeAnimationPage": {
+    "greeting": "你好 我的名字是薛泽原",
+    "jobTitle": [
+      "我是一名",
+      "软件工程师",
+      "IOS端应用开发者",
+      "网站开发者"
+    ],
+    "msg": "这是我的个人网站，你将会被它惊艳到！",
+    "fontFamily":"叶根友微影体"
+  },
+  "homePage": {
+    "about":[
+      ["薛泽原.origin", "中国 山东省 青岛市"],
+      ["薛泽原.education","2017年 毕业于 明尼苏达大学双城分校"],
+      ["薛泽原.major","计算机科学专业"],
+      ["薛泽原.title","XeroLLC创建者, 软件工程师, IOS端应用开发者, 网站开发者"]
+    ],
+    "experience":[],
+    "skills":[],
+    "certification":[],
+    "hobby":[]
+  }
+}

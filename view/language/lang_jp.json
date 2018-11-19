@@ -1,0 +1,26 @@
+{
+  "name":"薛 澤原",
+  "welcomeAnimationPage": {
+    "greeting": "こんにちは、私の名前は薛 澤原 (シュエ ゼウアン)",
+    "jobTitle": [
+      "私の職業は",
+      "ソフトウェアエンジニア",
+      "IOSアプリケーション開発者",
+      "Webアプリケーション開発者"
+    ],
+    "msg": "このサイトは私個人のサイトです。あなたは脅かれることを準備してください。",
+    "fontFamily":"AozoraMinchoRegular"
+  },
+  "homePage": {
+    "about":[
+      ["薛澤原.origin", "中国山東省青島市"],
+      ["薛澤原.education","ミネソタ大学ツインシティ校を2017年に卒業"],
+      ["薛澤原.major","コンプータ科学"],
+      ["薛澤原.title","XeroLLCの創設者, ソフトウェアエンジニア, IOSアプリケーション開発者, Webアプリケーション開発者"]
+    ],
+    "experience":[],
+    "skills":[],
+    "certification":[],
+    "hobby":[]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name":"Zeyuan Xue",
+  "welcomeAnimationPage": {
+    "greeting": "Hello I am Zeyuan Xue",
+    "jobTitle": [
+      "I am a",
+      "Software Engineer",
+      "IOS Application Developer",
+      "Web Application Developer"
+    ],
+    "msg": "This is my personal website and you will be amazed!",
+    "fontFamily":"Komiko"
+  },
+  "homePage": {
+    "about":[
+      ["ZeyuanXue.origin", "From Qingdao, Shandong Province, China"],
+      ["ZeyuanXue.education","Graduated from University of Minnesota - Twin Cites at 2017"],
+      ["ZeyuanXue.major","Computer Science"],
+      ["ZeyuanXue.title","Founder of XeroLLC, Software Engineer, IOS Application Developer, Web Application Developer"]
+    ],
+    "experience":[],
+    "skills":[],
+    "certification":[],
+    "hobby":[]
+  }
+}

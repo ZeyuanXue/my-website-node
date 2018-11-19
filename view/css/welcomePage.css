@@ -1,0 +1,98 @@
+@font-face {
+    font-family: '叶根友微影体';
+    src: url('fonts/叶根友微影体');
+}
+
+@font-face {
+  font-family: 'Komiko';
+  src: url('fonts/Komiko');
+}
+
+@font-face {
+  font-family: 'AozoraMinchoRegular';
+  src: url('fonts/AozoraMinchoRegular');
+}
+
+/* body{
+  overflow-x: hidden;
+} */
+
+.blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+
+.positionRelative{
+  position: relative;
+}
+
+.blackBackground {
+  background-color: black;
+}
+
+.whiteColor {
+  color: white;
+}
+#outgoingIcons li{
+  display: inline;
+}
+
+.boldFont {
+  font-weight: 900;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noMargin{
+  margin: 0px
+}
+
+.centerText {
+  text-align: center;
+}
+
+.cursor{
+  margin: 0;
+}
+
+.twoSpaceIndent::before{
+  content: "  "
+}
+
+#aboutContent{
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
+}
+
+.cursor::after{
+  content: '__';
+  color: white;
+  animation: blink-animation 1s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+.welcomePageText{
+  color: white;
+  text-align: center;
+  font-size: 180%;
+}
+
+/* Safari syntax*/
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Standard syntax */
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
