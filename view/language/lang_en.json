@@ -18,9 +18,246 @@
       ["ZeyuanXue.major","Computer Science"],
       ["ZeyuanXue.title","Founder of XeroLLC, Software Engineer, IOS Application Developer, Web Application Developer"]
     ],
-    "experience":[],
-    "skills":[],
-    "certification":[],
-    "hobby":[]
+    "experience":{
+      "education":[
+        {"title":"University of Minnesota - Twin Cities",
+          "preview":"/view/imgs/umn.png",
+          "photos":[],
+          "year":"2013 - 2017",
+          "degree": "Bachelor of Science - Computer Science",
+          "description": ""
+        }
+      ],
+      "experience":[
+        {
+          "title":"Hisense USA",
+          "preview": "/view/imgs/hisenseusa.png",
+          "location":"Atlanta, GA, USA",
+          "position":"Research & Development Internship",
+          "year": "Aug 2018 - Nov 2018",
+          "description":
+                       "- Developed a Television Quality Analysis Testing Suite in Java and completed 99% of the work alone, the project used the knowledge and technologies in various filed such as Infrared Signal Technologies, Audio Processing & Generating, Video Processing & Generating, Software Engineering and etc.\n- Refined an existing project SportsNow, a Television Application developed in Node.js and implemented a new API for video information grabbing which replaced the old one.\n- Participated Enhanced View project, a low-level system application implemented on Android platform, taught co-workers how an application on mobile system platform should start and solved several problems while implementing such as starting service on boot and creating channels at the first launching after the application installed."
+        },
+        {
+          "title":"Qingdao E Lingnet Integration Co., LTD",
+          "preview":"/view/imgs/elingnet.png",
+          "location": "Qingdao, Shandong Province, China",
+          "position":"iOS Application Developer Internship",
+          "year": "Feb 2018 - Mar 2018",
+          "description":
+                       "- Participated multiple iOS application developments\n- Programmed views, view controllers and models in Objective-C\n- Modified network interfaces and network module for an iOS application"
+        },
+        {
+          "title":"Sino-German United Group",
+          "preview": "/view/imgs/sinogerman.png",
+          "location":"Qingdao, Shandong Province, China",
+          "position":"Department Manager & Accountant - For Specific Event",
+          "year": "Jul 2016 - Aug 2016",
+          "description":
+                        "- Participated Qingdao International Beer Festival event as the accountant and department manager of Sino-German United Group’s Benediktiner Beer Sales Project.\n- Led a group of ten people directly and over one hundred people indirectly as the department manager, managed all cash flow of the entire project and generated report daily.\n- Managed all cash flow during the event and generated reports daily and at the end of the event."
+        },
+        {
+          "title":"Sailun Tire Company",
+          "preview": "/view/imgs/sailun.png",
+          "location":"Qingdao, Shandong Province, China",
+          "position":"International Sale Department Internship",
+          "year": "Jun 2015 - Jun 2015",
+          "description":"- Assisted staff in the department to complete international sale orders."
+        }
+      ],
+      "projects":[
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"Television Quality Analysis Testing Suite",
+          "company":"Hisense USA",
+          "year":"Aug 2018 - Nov 2018",
+          "photos":[],
+          "techniques":[
+            "Java",
+            "Hardware",
+            "Photo Processing",
+            "Audio Processing",
+            "Infrared Signal",
+            "USB Protocol",
+            "UI Design",
+            "UI Programming"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"SportsNow",
+          "company":"Hisense USA",
+          "year":"Aug 2018 - Nov 2018",
+          "photos":[],
+          "techniques":[
+            "Node.js",
+            "JavaScript",
+            "Data Processing",
+            "RESTful API"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"Vehicle Recognition Application with RESTful API",
+          "company":"Self",
+          "year":"Jun 2018",
+          "photos":"",
+          "techniques":[
+            "Java",
+            "RESTful API",
+            "Network",
+            "Data Processing"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"青城文化云",
+          "company":"Qingdao E Lingnet Integration Co., LTD",
+          "year":"Feb 2018 - Mar 2018",
+          "photos":"",
+          "techniques":[
+            "iOS Development",
+            "Objective-C","UI Programming"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"吆乎商家版",
+          "company":"Qingdao E Lingnet Integration Co., LTD",
+          "year":"Feb 2018 - Mar 2018",
+          "photos":"",
+          "techniques":[
+            "iOS Development",
+            "Objective-C",
+            "UI Programming",
+            "Network"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"Werewolves Judge Offline Multiplayer Board Game",
+          "company":"Self",
+          "year":"Dec 2017",
+          "photos":"",
+          "techniques":[
+            "Swift",
+            "iOS Development",
+            "UI Design",
+            "Network",
+            "Multipeer Connectivity Framework"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"MCI Auxiliary Technology Research Project",
+          "company":"University of Minnesota",
+          "year":"Jul 2017",
+          "photos":"",
+          "techniques":[
+            "Amazon AWS",
+            "UX Design"
+          ],
+          "description":""
+        }
+      ]
+    },
+    "skills":[
+      ["Java","70%", "java"],
+      ["JavaScript","61%", "js"],
+      ["Software Design", "60%", "sd"],
+      ["iOS Development", "56%", "iosd"],
+      ["jQuery","55%", "jq"],
+      ["HTML","54%", "hl"],
+      ["Node.js", "51%","njs"],
+      ["Web Development", "49%","wd"],
+      ["Swift","45%", "swft"],
+      ["Objective-C","44%","oc"],
+      ["Ruby on Rails","41%","ror"],
+      ["C++","40%", "cpp"],
+      ["Android Development","32%", "ad"],
+      ["PHP","30%", "ph"],
+      ["C","25%", "c"],
+      ["Python","10%", "py"]
+    ],
+    "certification":[
+      {
+        "title":"HTML, CSS, and Javascript for Web Developers",
+        "year":"Apr 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/LUVWZHC7PH58"
+      },
+      {
+        "title":"Ruby on Rails Web Services and Integration with MongoDB",
+        "year":"Mar 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/PC8QZZ2DC69P"
+      },
+      {
+        "title":"Building Database Applications in PHP",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/KNVVTDD56XZ3"
+      },
+      {
+        "title":"JavaScript, jQuery, and JSON",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/5FDU874KT244"
+      },
+      {
+        "title":"Rails with Active Record and Action Pack",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/UHQDC9SEWKKA"
+      },
+      {
+        "title":"Ruby on Rails: An Introduction",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/564N6U39MBYT"
+      },
+      {
+        "title":"Web Applications for Everybody Specialization",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/specialization/certificate/6L3U43SYCZSN"
+      },
+      {
+        "title":"Introduction to Structured Query Language (SQL)",
+        "year":"Jan 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/9ANG5ET4NKGS"
+      },
+      {
+        "title":"Building Web Applications in PHP",
+        "year":"Jan 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/S55MYZQQY7H3"
+      }
+    ],
+    "hobby":[
+      {
+        "title":"Coding",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"Motorcycle",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"League of Legends",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"Shooting",
+        "preview":"/view/imgs/whiteBlank.png"
+      }
+    ]
   }
 }

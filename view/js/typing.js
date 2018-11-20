@@ -1,8 +1,8 @@
 var welcomePage = getLanguage.then(function(websiteContent){
   return new Promise(function(resolve, reject){
-   $('#greetingContent').text(websiteContent.welcomeAnimationPage.greeting);
-   $('#jobTitleContetn').text(websiteContent.welcomeAnimationPage.jobTitle[0]+' '+websiteContent.welcomeAnimationPage.jobTitle[1]+' '+websiteContent.welcomeAnimationPage.jobTitle[2]+' '+websiteContent.welcomeAnimationPage.jobTitle[3]);
-   $('#msgContent').text(websiteContent.welcomeAnimationPage.msg);
+   $('#greetingContent').text(websiteContent["welcomeAnimationPage"]["greeting"]);
+   $('#jobTitleContetn').text(websiteContent["welcomeAnimationPage"]["jobTitle"][0]+' '+websiteContent["welcomeAnimationPage"]["jobTitle"][1]+' '+websiteContent["welcomeAnimationPage"]["jobTitle"][2]+' '+websiteContent["welcomeAnimationPage"]["jobTitle"][3]);
+   $('#msgContent').text(websiteContent["welcomeAnimationPage"]["msg"]);
    function setupTypewriter(t) {
      var HTML = t.innerHTML;
 

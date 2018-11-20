@@ -29,19 +29,7 @@
         <a id="cnLangLink"><img id="cnLangIcon" class="d-none" src="/view/imgs/cn-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
         <a id="enLangLink"><img id="enLangIcon" class="d-none" src="/view/imgs/en-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
         <a id="jpLangLink"><img id="jpLangIcon" class="d-none" src="/view/imgs/jp-language_icon.png" style="position: absolute; padding: 0; max-width: 1.5%; min-width: 18px; top: 15px; margin-bottom: 2px; right:12%;  background:black; border: none;" width="100%"></a>
-        <button id="menuIcon" type="button" style="position: absolute; padding: 0; top: 15px; right: 3%; background: black; min-width: 25px; max-width: 2.8%; margin-bottom: 2px; border: none;">
-          <img src="/view/imgs/menu.png" width="100%">
-        </button>
-        <!-- <div class="dropdown">
-          <button type="button" data-toggle="dropdown" style="padding: 0; max-width: 3%; margin-left: 80%; background:black; border: none;">
-            <img src="/view/imgs/cn-language_icon.png" width="100%">
-          </button>
-          <ul class="dropdown-menu" style="margin-left: 80%; width: 3%;">
-            <li style="width: 100%"><a href="#">HTML</a></li>
-            <li style="width: 100%"><a href="#">CSS</a></li>
-            <li style="width: 100%"><a href="#">JavaScript</a></li>
-          </ul>
-        </div> -->
+        <a id="menuIcon"><img src="/view/imgs/menu.png" style="position: absolute; padding: 0; top: 15px; right: 3%; background: black; min-width: 25px; max-width: 2.8%; margin-bottom: 2px; border: none;" width="100%"></a>
       </header>
       <div class="row h-100 ">
         <div class="col h-100" id="about">
@@ -60,10 +48,61 @@
         <img src="/view/imgs/down-arrow.png" style="width: 100%;">
       </div>
     </section>
-    <section id="experiencePart" class="container-fluid h-100 w-100" style="background: white"></section>
-    <section id="skillsPart" class="container-fluid h-100 w-100"></section>
-    <section id="certificationPart" class="container-fluid h-100 w-100" style="background: white"></section>
-    <section id="hobbyPart" class="container-fluid h-100 w-100"></section>
+    <section id="experiencePart" class="container" style="color:white; background: black; padding-top: 2%; padding-bottom: 1%">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <span style="font-size: 1.5vw;" id="expEduLabel"><b>Education</b></span>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="row" id="educationRow">
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <span style="font-size: 1.5vw;" id="expExpLabel"><b>Experience</b></span>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="row" id="experienceRow">
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <span style="font-size: 1.5vw;" id="expProjLabel"><b>Projects</b></span>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="row" id="projectsRow">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skillsPart" class="container" style="padding-bottom: 2%">
+      <div id="skillsContent" class="row" style="padding-top: 2%; padding-bottom:1%;">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12" style="margin-bottom: 1vw;">
+          <span class="whiteColor" style="font-size: 2vw;" id="skillLabel"><b>Skills</b></span>
+        </div>
+      </div>
+    </section>
+    <section id="certificationPart" class="container" style="background: black; padding-bottom: 2%;">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <span  style="font-size: 2vw; color: white;" id="certLabel"><b>Certifications</b></span>
+        </div>
+        <div id="certCol1" class="col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        </div>
+        <div id="certCol2" class="col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        </div>
+      </div>
+    </section>
+    <section id="hobbyPart" class="container" style="padding-bottom: 2%;">
+      <div class="row" id="hobbyRow">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <span style="color: white; font-size: 2vw;" id="hobbyLabel"><b>Hobby</b></span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div style="text-align: center; color:white;">
+        © Copyright Zeyuan Xue 2018 - Version 1.3beta - Majorly for Desktop
+      </div>
+    </footer>
   </div>
 
 
@@ -73,10 +112,10 @@
   <!-- Load bootstrap. -->
   <script src="/view/js/bootstrap.min.js"></script>
 
-  <script src="/view/js/getLanguage.js"></script>
-  <script src="/view/js/typing.js"></script>
-  <script src="/view/js/transition.js"></script>
-  <script src="/view/js/homePage.js"></script>
+  <script src="/view/js/getLanguage.min.js"></script>
+  <script src="/view/js/typing.min.js"></script>
+  <script src="/view/js/transition.min.js"></script>
+  <script src="/view/js/homePage.min.js"></script>
 
 </body>
 </html>

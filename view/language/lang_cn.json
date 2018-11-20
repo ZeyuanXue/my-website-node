@@ -18,9 +18,246 @@
       ["薛泽原.major","计算机科学专业"],
       ["薛泽原.title","XeroLLC创建者, 软件工程师, IOS端应用开发者, 网站开发者"]
     ],
-    "experience":[],
-    "skills":[],
-    "certification":[],
-    "hobby":[]
+    "experience":{
+      "education":[
+        {"title":"美国明尼苏达大学双城分校",
+          "preview":"/view/imgs/umn.png",
+          "photos":[],
+          "year":"2013 - 2017",
+          "degree": "科学类本科学位 - 计算机科学专业",
+          "description": ""
+        }
+      ],
+      "experience":[
+        {
+          "title":"海信 美国公司",
+          "preview": "/view/imgs/hisenseusa.png",
+          "location":"美国乔治亚州亚特兰大市",
+          "position":"研究与开发实习生",
+          "year": "2018 8月 - 2018 11月",
+          "description":
+                       "- Developed a Television Quality Analysis Testing Suite in Java and completed 99% of the work alone, the project used the knowledge and technologies in various filed such as Infrared Signal Technologies, Audio Processing & Generating, Video Processing & Generating, Software Engineering and etc.\n- Refined an existing project SportsNow, a Television Application developed in Node.js and implemented a new API for video information grabbing which replaced the old one.\n- Participated Enhanced View project, a low-level system application implemented on Android platform, taught co-workers how an application on mobile system platform should start and solved several problems while implementing such as starting service on boot and creating channels at the first launching after the application installed."
+        },
+        {
+          "title":"青岛一凌网集成有限公司",
+          "preview":"/view/imgs/elingnet.png",
+          "location": "中国山东省青岛市",
+          "position":"iOS端应用开发实习生",
+          "year": "2018 2月 - 2018 3月",
+          "description":
+                       "- Participated multiple iOS application developments\n- Programmed views, view controllers and models in Objective-C\n- Modified network interfaces and network module for an iOS application"
+        },
+        {
+          "title":"中德集团",
+          "preview": "/view/imgs/sinogerman.png",
+          "location":"中国山东省青岛市",
+          "position":"青岛啤酒节百帝王大棚部门经历及会计",
+          "year": "2016 7月 - 2016 8月",
+          "description":
+                        "- Participated Qingdao International Beer Festival event as the accountant and department manager of Sino-German United Group’s Benediktiner Beer Sales Project.\n- Led a group of ten people directly and over one hundred people indirectly as the department manager, managed all cash flow of the entire project and generated report daily.\n- Managed all cash flow during the event and generated reports daily and at the end of the event."
+        },
+        {
+          "title":"赛轮集团",
+          "preview": "/view/imgs/sailun.png",
+          "location":"中国山东省青岛市",
+          "position":"国际销售部门实习生",
+          "year": "2015 6月 - 2015 6月",
+          "description":"- Assisted staff in the department to complete international sale orders."
+        }
+      ],
+      "projects":[
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"电视质量检测套件",
+          "company":"海信 美国公司",
+          "year":"2018 8月 - 2018 11月",
+          "photos":[],
+          "techniques":[
+            "Java",
+            "Hardware",
+            "Photo Processing",
+            "Audio Processing",
+            "Infrared Signal",
+            "USB Protocol",
+            "UI Design",
+            "UI Programming"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"SportsNow",
+          "company":"海信 美国公司",
+          "year":"2018 8月 - 2018 11月",
+          "photos":[],
+          "techniques":[
+            "Node.js",
+            "JavaScript",
+            "Data Processing",
+            "RESTful API"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"车辆品牌型号识别软件 - 应用开源API",
+          "company":"自己",
+          "year":"2018 6月 - 2018 6月",
+          "photos":"",
+          "techniques":[
+            "Java",
+            "RESTful API",
+            "Network",
+            "Data Processing"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"青城文化云",
+          "company":"青岛一凌网集成有限公司",
+          "year":"2018 2月 - 2018 3月",
+          "photos":"",
+          "techniques":[
+            "iOS Development",
+            "Objective-C","UI Programming"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"吆乎商家版",
+          "company":"青岛一凌网集成有限公司",
+          "year":"2018 2月 - 2018 3月",
+          "photos":"",
+          "techniques":[
+            "iOS Development",
+            "Objective-C",
+            "UI Programming",
+            "Network"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"狼人杀法官离线版",
+          "company":"自己",
+          "year":"2017 11月 - 2017 12月",
+          "photos":"",
+          "techniques":[
+            "Swift",
+            "iOS Development",
+            "UI Design",
+            "Network",
+            "Multipeer Connectivity Framework"
+          ],
+          "description":""
+        },
+        {
+          "preview":"/view/imgs/whiteBlank.png",
+          "title":"早期老年痴呆症生活辅助应用研究",
+          "company":"美国明尼苏达大学双城分校",
+          "year":"2017 7月 - 2017 9月",
+          "photos":"",
+          "techniques":[
+            "Amazon AWS",
+            "UX Design"
+          ],
+          "description":""
+        }
+      ]
+    },
+    "skills":[
+      ["Java","70%", "java"],
+      ["JavaScript","61%", "js"],
+      ["软件设计", "60%", "sd"],
+      ["iOS端开发", "56%", "iosd"],
+      ["jQuery","55%", "jq"],
+      ["HTML","54%", "hl"],
+      ["Node.js", "51%","njs"],
+      ["网络应用开发", "49%","wd"],
+      ["Swift","45%", "swft"],
+      ["Objective-C","44%","oc"],
+      ["Ruby on Rails","41%","ror"],
+      ["C++","40%", "cpp"],
+      ["安卓端开发","32%", "ad"],
+      ["PHP","30%", "ph"],
+      ["C","25%", "c"],
+      ["Python","10%", "py"]
+    ],
+    "certification":[
+      {
+        "title":"HTML, CSS, and Javascript for Web Developers",
+        "year":"Apr 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/LUVWZHC7PH58"
+      },
+      {
+        "title":"Ruby on Rails Web Services and Integration with MongoDB",
+        "year":"Mar 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/PC8QZZ2DC69P"
+      },
+      {
+        "title":"Building Database Applications in PHP",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/KNVVTDD56XZ3"
+      },
+      {
+        "title":"JavaScript, jQuery, and JSON",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/5FDU874KT244"
+      },
+      {
+        "title":"Rails with Active Record and Action Pack",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/UHQDC9SEWKKA"
+      },
+      {
+        "title":"Ruby on Rails: An Introduction",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/564N6U39MBYT"
+      },
+      {
+        "title":"Web Applications for Everybody Specialization",
+        "year":"Feb 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/specialization/certificate/6L3U43SYCZSN"
+      },
+      {
+        "title":"Introduction to Structured Query Language (SQL)",
+        "year":"Jan 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/9ANG5ET4NKGS"
+      },
+      {
+        "title":"Building Web Applications in PHP",
+        "year":"Jan 2018 – Present",
+        "from":"Coursera",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/S55MYZQQY7H3"
+      }
+    ],
+    "hobby":[
+      {
+        "title":"编程",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"摩托车",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"英雄联盟",
+        "preview":"/view/imgs/whiteBlank.png"
+      },
+      {
+        "title":"射击",
+        "preview":"/view/imgs/whiteBlank.png"
+      }
+    ]
   }
 }

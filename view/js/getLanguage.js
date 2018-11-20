@@ -62,11 +62,11 @@ function getContent (){
         dataType: 'json',
         success: function(res, status, xhr){
           if (xhr.status==200){
-            $('#content').css('font-family',res.welcomeAnimationPage.fontFamily);
-            $('#homePage').css('font-family',res.welcomeAnimationPage.fontFamily);
-            $('#aboutContent').css('font-family',res.welcomeAnimationPage.fontFamily);
+            $('#content').css('font-family',res["welcomeAnimationPage"]["fontFamily"]);
+            $('#homePage').css('font-family',res["welcomeAnimationPage"]["fontFamily"]);
+            $('#aboutContent').css('font-family',res["welcomeAnimationPage"]["fontFamily"]);
             $('#navBrand').html("<img src='/view/imgs/"+getCookie('language')+"-favicon-1024.png' width='4.5%' style='min-width: 30px;position: absolute; top: 1.5%; left: 3%; max-width: 50px; top: 5px;'>"+$('#navBrand').html());
-            var photoAndContact = "<div style='text-align: justify; width: 25%; position: absolute; top: 30%;'><img id='myPhoto' src='/view/imgs/me.jpeg' alt='My Photot' style='display:block; border-radius: 50%; border-style: solid; border-color: #e3e7ed; max-width: 100%; max-height: 100%; margin: 0;' width='100%' /><p class='whiteColor' style='text-align:center; font-size: 1.8vw;' ><b>"+res.name+"</b></span></p>";
+            var photoAndContact = "<div style='text-align: justify; width: 25%; position: absolute; top: 30%;'><img id='myPhoto' src='/view/imgs/me.jpeg' alt='My Photot' style='display:block; border-radius: 50%; border-style: solid; border-color: #e3e7ed; max-width: 100%; max-height: 100%; margin: 0;' width='100%' /><p class='whiteColor' style='text-align:center; font-size: 1.8vw;' ><b>"+res["name"]+"</b></span></p>";
             $('#photoAndContact').html(photoAndContact+$('#photoAndContact').html());
             $('#'+getCookie('language')+'LangIcon').removeClass('d-none').css('z-index', '99999');
             $('#'+getCookie('language')+'LangIcon').removeAttr('onclick');
@@ -75,7 +75,7 @@ function getContent (){
               if (langs[i]==getCookie('language')){
                 continue;
               }
-              $('body').on("click", '#'+langs[i]+'LangLink',function(){
+              $('body').on("click", '#'+langs[i]+'LangLink',function(event){
                 document.cookie = 'language='+$(this).attr('id').substring(0,2);
                 location.href='/';
                 event.stopPropagation();
@@ -120,7 +120,7 @@ function getContent (){
 
               }
             });
-            var font = new FontFace(res.welcomeAnimationPage.fontFamily, "url('view/css/fonts/"+res.welcomeAnimationPage.fontFamily+"')");
+            var font = new FontFace(res["welcomeAnimationPage"]["fontFamily"], "url('view/css/fonts/"+res["welcomeAnimationPage"]["fontFamily"]+"')");
             font.load().then(function(){
               resolve(res);
             });
